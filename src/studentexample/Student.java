@@ -4,6 +4,7 @@ package studentexample;
  * This class represents a Student
  *
  * @author Paul Bonenfant
+ * 2024/10/07
  */
 public class Student {
     
