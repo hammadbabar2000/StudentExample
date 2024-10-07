@@ -16,7 +16,7 @@ public class StudentExample {
         
         Scanner input = new Scanner(System.in);
         
-        Student[] students = new Student[5];
+        Student[] students = new Student[4];
         
         for (int i = 0; i < students.length; i++) {
             System.out.println("Enter a name");
@@ -25,11 +25,16 @@ public class StudentExample {
         }
         
         students[2].setAge(18);
+        students[1].setAge(20);
+        students[0].setAge(23);
+        students[0].setAge(24);
         
         for (Student student: students) {
             System.out.printf("Student %s is %d years old\n", 
                     student.getName(), student.getAge());
         }
+        
+        
         
     }
 }
